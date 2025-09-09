@@ -1,0 +1,139 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* Chat Container */
+.chat-container {
+  width: 100%;
+  height: 80%;
+  max-width: 400px;
+  background-color: #ddd;
+
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  
+}
+
+/* Chat Header */
+.chat-header {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-weight: bold;
+}
+
+/* Chat Box */
+.chat-box {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #e0e0e0;
+
+}
+
+/* Chat Input */
+.chat-input {
+  display: flex;
+  padding: 10px;
+  background-color: #ffffff;
+  border-top: 1px solid #e0e0e0;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  outline: none;
+  font-size: 14px;
+}
+
+.chat-input button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-input button:hover {
+  background-color: #357ab7;
+}
+
+/* Chat Messages */
+.chat-message {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.chat-message.user {
+  /* justify-content: flex-end; */
+  flex-direction: row-reverse;
+}
+
+.chat-message.bot {
+  justify-content: flex-start;
+}
+
+.chat-message .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 10px;
+}
+
+.chat-message .avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chat-message .chat-bubble {
+  max-width: 70%;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.chat-message.user .chat-bubble {
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 15px 0 15px 15px;
+}
+
+.chat-message.bot .chat-bubble {
+  background-color: #4a90e2;
+  color: #333;
+  border-radius: 0 15px 15px 15px;
+}

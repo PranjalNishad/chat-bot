@@ -1,0 +1,40 @@
+{
+  "college": {
+    "name": "KIPM Institute of Technology",
+    "short_name": "KIPMIT",
+    "address": "Sector-9, GIDA, Gorakhpur, UP",
+    "affiliation": "Affiliated to AKTU Lucknow",
+    "contacts": {
+      "email": "info@kipmit.edu.in",
+      "phone": "+91-1234567890",
+      "admissions_email": "admissions@kipmit.edu.in",
+      "website": "https://www.kipmit.edu.in/admissions"
+    }
+  },
+  "programs": {
+    "B.Tech": {
+      "branches": {
+        "CSE": {"seats": 120, "eligibility": "Class 12 PCM, min 50%"},
+        "AI/ML": {"seats": 60, "eligibility": "Class 12 PCM, min 50%"}
+      },
+      "base_fees_per_year": 100000,
+      "jee_subsidized_fees_per_year": 75000
+    },
+    "MBA": {"base_fees_per_year": 150000}
+  },
+  "admissions": {
+    "general_eligibility": "Min 50% in PCM for B.Tech, graduation 50% for MBA.",
+    "process": [
+      "Check eligibility & entrance exam.",
+      "Apply for the exam and counseling.",
+      "Choose KIPMIT in counseling.",
+      "Submit documents and pay fee."
+    ],
+    "scholarships": ["Merit-based scholarships", "Govt scholarships"],
+    "documents_required": ["10+2 marksheets", "Entrance scorecard", "ID proof", "Photos"]
+  },
+  "faqs": [
+    {"q":"What is B.Tech eligibility?","a":"Class 12 PCM with at least 50%."},
+    {"q":"Does college have hostel?","a":"Yes, hostels available."}
+  ]
+}
