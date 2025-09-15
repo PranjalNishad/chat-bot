@@ -29,7 +29,6 @@ The chatbot interacts with users and can fetch information from `admissions_data
 git clone https://github.com/PranjalNishad/chat-bot.git
 cd chat-bot
 
-**hh**
 
 
 
