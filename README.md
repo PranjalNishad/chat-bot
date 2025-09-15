@@ -26,7 +26,7 @@ The chatbot interacts with users and can fetch information from `admissions_data
   git clone https://github.com/PranjalNishad/chat-bot.git
   cd chat-bot
 
-## **Create a Virtual Environment (Recommended)**
+**## Create a Virtual Environment (Recommended)**
 
     # On Linux/Mac
     python3 -m venv venv
@@ -36,22 +36,22 @@ The chatbot interacts with users and can fetch information from `admissions_data
     python -m venv venv
     venv\Scripts\activate
 
-3️⃣ Install Dependencies
+**3️⃣ Install Dependencies**
 
-If you just cloned the repo and don’t have required libraries, install everything from requirements.txt:
+**If you just cloned the repo and don’t have required libraries, install everything from requirements.txt:**
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
- If you don’t have a requirements.txt, you can create one (after installing Flask or other libs) with:
+ **If you don’t have a requirements.txt, you can create one (after installing Flask or other libs) with:**
 
     pip freeze > requirements.txt
 
-4️⃣ Run the Backend
+**4️⃣ Run the Backend**
 
     python backend.py
 
 
-By default, this will start the server at:
+**By default, this will start the server at:**
 
     http://127.0.0.1:5000
 
