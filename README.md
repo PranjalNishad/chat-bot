@@ -55,6 +55,36 @@ If you just cloned the repo and don’t have required libraries, install everyth
 
     python backend.py
 
+-------
+
+📦 Libraries Used
+1. Flask
+
+Used to create the backend server and APIs.
+👉 Installation:
+
+        pip install flask
+
+2. Flask-Cors (optional but recommended)
+
+If your frontend (index.html) makes requests from another port (like file:// or http://127.0.0.1:5500), you’ll need CORS support.
+👉 Installation:
+
+        pip install flask-cors
+
+3. JSON (built-in)
+
+Python’s json library is used to load and parse admissions_data.json.
+👉 No installation needed (it comes with Python).
+
+4. Requests (optional)
+
+If your chatbot fetches data from external APIs.
+👉 Installation:
+
+        pip install requests
+
+
 
 
 
