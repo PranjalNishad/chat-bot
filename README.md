@@ -31,13 +31,30 @@ cd chat-bot
 
 ---
 
-# On Linux/Mac
-python3 -m venv venv
-source venv/bin/activate
+2️⃣ Create a Virtual Environment (Recommended)
 
-# On Windows
-python -m venv venv
-venv\Scripts\activate
+    # On Linux/Mac
+    python3 -m venv venv
+    source venv/bin/activate
+    
+    # On Windows
+    python -m venv venv
+    venv\Scripts\activate
+
+---
+
+3️⃣ Install Dependencies
+
+If you just cloned the repo and don’t have required libraries, install everything from requirements.txt:
+
+    pip install -r requirements.txt
+
+---
+
+4️⃣ Run the Backend
+
+    python backend.py
+
 
 
 
