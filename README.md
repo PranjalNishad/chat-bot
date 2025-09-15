@@ -29,5 +29,16 @@ The chatbot interacts with users and can fetch information from `admissions_data
 git clone https://github.com/PranjalNishad/chat-bot.git
 cd chat-bot
 
+###2️⃣ Create a Virtual Environment (Recommended)
+
+# On Linux/Mac
+python3 -m venv venv
+source venv/bin/activate
+
+# On Windows
+python -m venv venv
+venv\Scripts\activate
+
+
 
 
